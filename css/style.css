@@ -1,0 +1,59 @@
+:root{
+    --Robotofont:'Roboto';
+    --Ralewayfont:'Raleway';
+    --Interfont:'Inter 18pt';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+img{
+    width: 100%;
+    display: inline-block;
+}
+.justify-content-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.d-flex{
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-12{
+    width: 100%;
+}
+.col-6{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    margin: 5px;
+   font-family: var(--Interfont);
+   color: #8b8b8b;
+}
+ul{
+    list-style: none;
+  
+}
+ /* <!-- :) header section start (: --> */
+ .container h1{
+    font-family: var(--Ralewayfont);
+    color: #8b8b8b;
+ }
+ /* <!-- :) header section close (: --> */
